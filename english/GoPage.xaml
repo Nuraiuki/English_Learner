@@ -1,0 +1,32 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:english"
+             x:Class="english.GoPage"
+             Title="GoPage">
+
+    <!-- Используем StackLayout для размещения каруселей вербов -->
+    <StackLayout>
+
+        <!-- Карусель для отображения фразовых глаголов "go" -->
+        <CarouselView x:Name="goCarousel">
+            <!-- Устанавливаем шаблон для отображения элементов карусели -->
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <!-- Отображаем Verb, его Meaning и Example -->
+                    <StackLayout Margin="50" Padding="20" HorizontalOptions="Center">
+    <Label Text="{Binding Verb}" FontSize="50" HorizontalOptions="Center" />
+    <Label Text="{Binding Meaning}" FontAttributes="Bold" />
+    <Frame BorderColor="Purple" CornerRadius="5">
+                         
+        <Label Text="{Binding Example}" FontSize="Small" FontAttributes="Italic" />
+    </Frame>
+    <!-- Кнопка "Учить" -->
+<Button Text="Учить" Clicked="LearnButton_Clicked" HorizontalOptions="Center" Padding="30,0,30,0" Margin="0,30,0,0" />
+</StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+    </StackLayout>
+
+</ContentPage>

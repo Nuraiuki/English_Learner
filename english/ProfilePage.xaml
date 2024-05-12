@@ -1,0 +1,16 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="english.ProfilePage">
+    <StackLayout>
+        <Label Text="{Binding CurrentUsername}" Margin="10" Padding="20" />
+
+        <!-- Кнопка для смены пароля -->
+        <Button Text="Change Password" Clicked="OnChangePasswordButtonClicked" Margin="10" />
+
+        <!-- Кнопка для выхода с аккаунта -->
+        <Button Text="Выйти с аккаунта" Clicked="OnLogoutButtonClicked" Margin="10" />
+
+                <Button Text="Посмотреть историю попыток " Clicked="OnAttempts" Margin="10" />
+
+    </StackLayout>
+</ContentPage>

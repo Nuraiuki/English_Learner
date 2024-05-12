@@ -1,0 +1,110 @@
+﻿<Properties StartupConfiguration="{E7A79786-75D1-4614-AEBF-31FE80E6B525}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C15EA5BB-588E-408D-9789-5613FE0729E9" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="34.0.79" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="english/baza.cs">
+    <Files>
+      <File FileName="english/MainPage.xaml.cs" />
+      <File FileName="english/MainPage.xaml" />
+      <File FileName="english/baza.cs" Line="39" Column="1" />
+      <File FileName="english/LoginPage.xaml" />
+      <File FileName="english/LoginPage.xaml.cs" />
+      <File FileName="english/LogoutPage.xaml" />
+      <File FileName="english/LogoutPage.xaml.cs" />
+      <File FileName="english/RegistrationPage.xaml" Line="1" Column="1" />
+      <File FileName="english/RegistrationPage.xaml.cs" Line="12" Column="36" />
+      <File FileName="english/App.xaml" />
+      <File FileName="english/App.xaml.cs" />
+      <File FileName="english/AppShell.xaml" />
+      <File FileName="english/HomePage.xaml" />
+      <File FileName="english/HomePage.xaml.cs" />
+      <File FileName="english/MainQuizViewModel.cs" />
+      <File FileName="english/MauiProgram.cs" />
+      <File FileName="english/PhrasalVerbs.cs" />
+      <File FileName="english/Question.cs" />
+      <File FileName="english/QuizViewModel.cs" />
+      <File FileName="english/GoPage.xaml" />
+      <File FileName="english/GoPage.xaml.cs" />
+      <File FileName="english/ChangePasswordPage.xaml" />
+      <File FileName="english/ChangePasswordPage.xaml.cs" />
+      <File FileName="english/ComePage.xaml" />
+      <File FileName="english/ComePage.xaml.cs" />
+      <File FileName="english/CountDown.xaml" />
+      <File FileName="english/CountDown.xaml.cs" />
+      <File FileName="english/Library.xaml" />
+      <File FileName="english/Library.xaml.cs" />
+      <File FileName="english/LookPage.xaml" />
+      <File FileName="english/LookPage.xaml.cs" />
+      <File FileName="english/MainQuiz.xaml" />
+      <File FileName="english/MainQuiz.xaml.cs" />
+      <File FileName="english/PreviousAttempts.xaml" Line="14" Column="1" />
+      <File FileName="english/PreviousAttempts.xaml.cs" />
+      <File FileName="english/ProfilePage.xaml" />
+      <File FileName="english/ProfilePage.xaml.cs" />
+      <File FileName="english/PutPage.xaml" />
+      <File FileName="english/PutPage.xaml.cs" />
+      <File FileName="english/QuizPage.xaml" />
+      <File FileName="english/QuizPage.xaml.cs" />
+      <File FileName="english/QuizResult.xaml" />
+      <File FileName="english/QuizResult.xaml.cs" />
+      <File FileName="english/TakePage.xaml" />
+      <File FileName="english/TakePage.xaml.cs" />
+      <File FileName="english/UserPhrasalVerbProgressPage.xaml" />
+      <File FileName="english/UserPhrasalVerbProgressPage.xaml.cs" />
+      <File FileName="english/VideoPage.xaml" />
+      <File FileName="english/VideoPage.xaml.cs" />
+      <File FileName="../../.nuget/packages/communitytoolkit.maui.mediaelement/1.0.2/readme.txt" />
+      <File FileName="../../../../usr/local/share/dotnet/packs/Microsoft.Android.Sdk.Darwin/33.0.95/tools/Xamarin.Android.Aapt2.targets" />
+      <File FileName="english/Platforms/iOS/Program.cs" />
+      <File FileName="english/AppShell.xaml.cs" />
+      <File FileName="english/Platforms/iOS/Info.plist" />
+      <File FileName="english/Platforms/iOS/AppDelegate.cs" />
+      <File FileName="english/Platforms/Android/AndroidManifest.xml" />
+      <File FileName="english/Platforms/Android/MainActivity.cs" />
+      <File FileName="english/Platforms/Android/MainApplication.cs" />
+      <File FileName="english/Properties/launchSettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="english" expanded="True">
+            <Node name="english" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="baza.cs" selected="True" />
+              <Node name="ComePage.xaml" expanded="True" />
+              <Node name="GoPage.xaml" expanded="True" />
+              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="LoginPage.xaml" expanded="True" />
+              <Node name="LookPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MainQuiz.xaml" expanded="True" />
+              <Node name="ProfilePage.xaml" expanded="True" />
+              <Node name="PutPage.xaml" expanded="True" />
+              <Node name="QuizPage.xaml" expanded="True" />
+              <Node name="QuizResult.xaml" expanded="True" />
+              <Node name="RegistrationPage.xaml" expanded="True" />
+              <Node name="TakePage.xaml" expanded="True" />
+              <Node name="UserPhrasalVerbProgressPage.xaml" expanded="True" />
+              <Node name="VideoPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.english PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C15EA5BB-588E-408D-9789-5613FE0729E9" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

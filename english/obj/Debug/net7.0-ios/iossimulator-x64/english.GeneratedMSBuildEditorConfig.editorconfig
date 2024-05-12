@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = english
+build_property.ProjectDir = /Users/user1/Desktop/english/english/
+
+[/Users/user1/Desktop/english/english/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/user1/Desktop/english/english/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/user1/Desktop/english/english/ChangePasswordPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.ChangePasswordPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ChangePasswordPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ChangePasswordPage.xaml
+
+[/Users/user1/Desktop/english/english/ComePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.ComePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ComePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ComePage.xaml
+
+[/Users/user1/Desktop/english/english/CountDown.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.CountDown.xaml
+build_metadata.AdditionalFiles.TargetPath = CountDown.xaml
+build_metadata.AdditionalFiles.RelativePath = CountDown.xaml
+
+[/Users/user1/Desktop/english/english/GoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.GoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GoPage.xaml
+
+[/Users/user1/Desktop/english/english/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
+
+[/Users/user1/Desktop/english/english/Library.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.Library.xaml
+build_metadata.AdditionalFiles.TargetPath = Library.xaml
+build_metadata.AdditionalFiles.RelativePath = Library.xaml
+
+[/Users/user1/Desktop/english/english/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[/Users/user1/Desktop/english/english/LogoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.LogoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LogoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LogoutPage.xaml
+
+[/Users/user1/Desktop/english/english/LookPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.LookPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LookPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LookPage.xaml
+
+[/Users/user1/Desktop/english/english/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/user1/Desktop/english/english/MainQuiz.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.MainQuiz.xaml
+build_metadata.AdditionalFiles.TargetPath = MainQuiz.xaml
+build_metadata.AdditionalFiles.RelativePath = MainQuiz.xaml
+
+[/Users/user1/Desktop/english/english/PreviousAttempts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.PreviousAttempts.xaml
+build_metadata.AdditionalFiles.TargetPath = PreviousAttempts.xaml
+build_metadata.AdditionalFiles.RelativePath = PreviousAttempts.xaml
+
+[/Users/user1/Desktop/english/english/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProfilePage.xaml
+
+[/Users/user1/Desktop/english/english/PutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.PutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PutPage.xaml
+
+[/Users/user1/Desktop/english/english/QuizPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.QuizPage.xaml
+build_metadata.AdditionalFiles.TargetPath = QuizPage.xaml
+build_metadata.AdditionalFiles.RelativePath = QuizPage.xaml
+
+[/Users/user1/Desktop/english/english/QuizResult.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.QuizResult.xaml
+build_metadata.AdditionalFiles.TargetPath = QuizResult.xaml
+build_metadata.AdditionalFiles.RelativePath = QuizResult.xaml
+
+[/Users/user1/Desktop/english/english/RegistrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.RegistrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegistrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegistrationPage.xaml
+
+[/Users/user1/Desktop/english/english/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/user1/Desktop/english/english/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/user1/Desktop/english/english/TakePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.TakePage.xaml
+build_metadata.AdditionalFiles.TargetPath = TakePage.xaml
+build_metadata.AdditionalFiles.RelativePath = TakePage.xaml
+
+[/Users/user1/Desktop/english/english/UserPhrasalVerbProgressPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.UserPhrasalVerbProgressPage.xaml
+build_metadata.AdditionalFiles.TargetPath = UserPhrasalVerbProgressPage.xaml
+build_metadata.AdditionalFiles.RelativePath = UserPhrasalVerbProgressPage.xaml
+
+[/Users/user1/Desktop/english/english/VideoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = english.VideoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = VideoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = VideoPage.xaml

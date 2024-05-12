@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
+		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
+		<!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
+		<OutputType>Exe</OutputType>
+		<RootNamespace>english</RootNamespace>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Display name -->
+		<ApplicationTitle>english</ApplicationTitle>
+
+		<!-- App Identifier -->
+		<ApplicationId>com.companyname.english</ApplicationId>
+		<ApplicationIdGuid>d46a9c10-9086-4afd-9a36-b32cd72bc959</ApplicationIdGuid>
+
+		<!-- Versions -->
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationVersion>1</ApplicationVersion>
+
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
+	  <CreatePackage>false</CreatePackage>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-ios|AnyCPU'">
+	  <CreatePackage>false</CreatePackage>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+
+		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+
+		<!-- Images -->
+		<MauiFont Include="Resources\Fonts\*" />
+
+		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Npgsql" Version="8.0.1" />
+		<PackageReference Include="CommunityToolkit.Maui.MediaElement" Version="1.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\" />
+	  <None Remove="Resources\Images\profile.png" />
+	  <None Remove="Resources\Images\star.png" />
+	  <None Remove="Resources\Images\video.png" />
+	  <None Remove="Resources\Images\word.png" />
+	  <None Remove="Resources\Raw\15 Phrasal Verbs with LOOK_ Look after, Look at, Look for, Look up, Look forward to, Look out.mp4" />
+	  <None Remove="Resources\Images\libraryy.png" />
+	  <None Remove="Resources\Images\smile.png" />
+	  <None Remove="Resources\Images\check.png" />
+	  <None Remove="Resources\Images\go.png" />
+	  <None Remove="Resources\Images\look.png" />
+	  <None Remove="Resources\Images\put.png" />
+	  <None Remove="Resources\Images\take.png" />
+	  <None Remove="Resources\Images\up.png" />
+	  <None Remove="Resources\Images\come.png" />
+	  <None Remove="Resources\Images\cross.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Resources\Images\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Raw\15 Phrasal Verbs with LOOK_ Look after, Look at, Look for, Look up, Look forward to, Look out.mp4" />
+	  <BundleResource Include="Resources\Images\go.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\check.png" />
+	  <MauiImage Include="Resources\Images\libraryy.png" />
+	  <MauiImage Include="Resources\Images\profile.png" />
+	  <MauiImage Include="Resources\Images\smile.png" />
+	  <MauiImage Include="Resources\Images\star.png" />
+	  <MauiImage Include="Resources\Images\video.png" />
+	  <MauiImage Include="Resources\Images\word.png" />
+	  <MauiImage Include="Resources\Images\come.png" />
+	  <MauiImage Include="Resources\Images\go.png" />
+	  <MauiImage Include="Resources\Images\look.png" />
+	  <MauiImage Include="Resources\Images\put.png" />
+	  <MauiImage Include="Resources\Images\take.png" />
+	  <MauiImage Include="Resources\Images\up.png" />
+	  <MauiImage Include="Resources\Images\cross.png" />
+	</ItemGroup>
+</Project>

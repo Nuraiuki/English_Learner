@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="english.MainPage"
+             Title="MainPage"
+             Shell.NavBarHasShadow="False">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <!-- Верхняя строка для кнопок -->
+            <RowDefinition Height="*" />
+
+            <!-- Нижняя строка для кнопок внизу экрана -->
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+<!-- Верхний ряд кнопок -->
+<StackLayout Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="40" Margin="0,-20,0,0">
+    <StackLayout Orientation="Horizontal" >
+        <Frame CornerRadius="10" HasShadow="True" Margin="0,0,10,0" >
+            <StackLayout Orientation="Horizontal">
+                <Image Source="come.png" HeightRequest="60" WidthRequest="60" VerticalOptions="Center" Margin="10,0,0,0" />
+                <Button Text="Come" Margin="10" Padding="20" Clicked="ComePage_Clicked" />
+            </StackLayout>
+        </Frame>
+        <Frame CornerRadius="10" HasShadow="True">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="go.png" HeightRequest="60" WidthRequest="60" VerticalOptions="Center" Margin="10,0,0,0" />
+                <Button Text="Go " Margin="10" Padding="20" Clicked="GoPage_Clicked" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal">
+        <Frame CornerRadius="10" HasShadow="True" Margin="0,0,10,0">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="put.png" HeightRequest="60" WidthRequest="60" VerticalOptions="Center" Margin="10,0,0,0" />
+                <Button Text="Put    " Margin="10" Padding="20" Clicked="put_Clicked" />
+            </StackLayout>
+        </Frame>
+
+        <Frame CornerRadius="10" HasShadow="True"  >
+            <StackLayout Orientation="Horizontal">
+                <Image Source="up.png" HeightRequest="60" WidthRequest="60" VerticalOptions="Center" Margin="10,0,0,0" />
+                <Button Text="Up  " Margin="10" Padding="20" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal">
+        <Frame CornerRadius="10" HasShadow="True" Margin="0,0,10,0">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="take.png" HeightRequest="60" WidthRequest="60" VerticalOptions="Center" Margin="10,0,0,0" />
+                <Button Text="Take " Margin="10" Padding="20" Clicked="take_Clicked" />
+            </StackLayout>
+        </Frame>
+        <Frame CornerRadius="10" HasShadow="True">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="look.png" HeightRequest="60" WidthRequest="60" VerticalOptions="Center" Margin="10,0,0,0" />
+                <Button Text="Look" Margin="10" Padding="20" Clicked="look_Clicked"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+    <Button Text="Тест" Margin="10" Padding="20" Clicked="Main_Test" />
+</StackLayout>
+
+
+      
+
+
+<Grid Grid.Row="1" Margin="0,20,0,0">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+    </Grid.ColumnDefinitions>
+
+<ImageButton Source="libraryy.png" Grid.Column="0" HeightRequest="50" Clicked="LibraryButton_Clicked"/>
+    <BoxView Grid.Column="1" Color="Black" WidthRequest="1" VerticalOptions="FillAndExpand"/>
+    <ImageButton Source="word.png"  Grid.Column="2" HeightRequest="50" Clicked="ViewWordsButton_Clicked"/>
+    <BoxView Grid.Column="3" Color="Black" WidthRequest="1" VerticalOptions="FillAndExpand"/>
+    <ImageButton Source="video.png"  Grid.Column="4" HeightRequest="50" Clicked="VideoButton_Clicked"/>
+    <BoxView Grid.Column="5" Color="Black" WidthRequest="1" VerticalOptions="FillAndExpand"/>
+    <ImageButton Source="profile.png"  Grid.Column="6" HeightRequest="50" Clicked="ProfileButton_Clicked"/>
+</Grid>
+
+
+    </Grid>
+
+</ContentPage>

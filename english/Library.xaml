@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+
+             x:Class="english.Library"
+             Title="Library">
+   
+    <StackLayout>
+        <StackLayout Margin="10">
+            <Label Text="Phrasal Verbs Library" HorizontalOptions="Center" FontSize="Large" Margin="0,20,0,10" />
+            <SearchBar x:Name="searchBar" Placeholder="Search Phrasal Verbs" PlaceholderColor="White"
+                       CancelButtonColor="Black"
+                       TextColor="Black"
+                       ios:SearchBar.SearchBarStyle="Minimal"
+                       SearchButtonPressed="OnSearchButtonPressed" />
+        </StackLayout>        
+
+        <!-- Кнопка сортировки по алфавиту -->
+        <Button Text="Sort Alphabetically" Clicked="OnSortAlphabeticallyButtonPressed" Margin="10" />
+
+        <!-- ListView для отображения фразовых глаголов и их переводов -->
+        <ListView x:Name="phrasalVerbListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <!-- Элемент, отображающий фразовый глагол и его перевод -->
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10,5">
+                            <!-- Фразовый глагол -->
+                            <Label Text="{Binding Verb}" VerticalOptions="Center" />
+
+                            <!-- Разделитель между фразовым глаголом и переводом -->
+                            <BoxView Color="LightGray" WidthRequest="1" HeightRequest="30" VerticalOptions="FillAndExpand" HorizontalOptions="Center" Margin="10,0" />
+
+                            <!-- Перевод фразового глагола -->
+                            <Label Text="{Binding Translate}" VerticalOptions="Center" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

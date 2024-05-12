@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="english.QuizPage"
+             Title="QuizPage"
+             Shell.NavBarIsVisible="False"
+             Shell.NavBarHasShadow="False">
+ <StackLayout>
+        <Label x:Name="questionLabel" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+        <StackLayout x:Name="answersLayout" Padding="10" Spacing="10" VerticalOptions="CenterAndExpand"/>
+        <Label x:Name="timerLabell" HorizontalOptions="Center" VerticalOptions="EndAndExpand"/>
+    </StackLayout>
+</ContentPage>

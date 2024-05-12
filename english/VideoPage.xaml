@@ -1,0 +1,55 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="english.VideoPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <toolkit:MediaElement x:Name="mediaElement" WidthRequest="400" HeightRequest="300"
+                Source="embed://15 Phrasal Verbs with LOOK_ Look after, Look at, Look for, Look up, Look forward to, Look out.mp4"/>
+
+            <Slider
+                x:Name="VolumeSlider"
+                Maximum="1.0"
+                Minimum="0.0"
+                Value="{Binding Volume, Mode=TwoWay}"
+                WidthRequest="200"
+                VerticalOptions="Center"
+                ValueChanged="OnVolumeSliderValueChanged" />
+<Grid ColumnSpacing="55">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+    <Label Grid.Column="0" Text="Volume" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" />
+
+    <StackLayout Grid.Column="1" Orientation="Horizontal" HorizontalOptions="End" Spacing="5">
+        <Button Text="-" Clicked="OnVolumeMinusClicked" />
+        <Button Text="+" Clicked="OnVolumePlusClicked" />
+    </StackLayout>
+</Grid>
+<Grid ColumnSpacing="55">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+    <Label Grid.Column="0" Text="Speed" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" />
+
+    <StackLayout Grid.Column="1" Orientation="Horizontal" HorizontalOptions="End" Spacing="5">
+        <Button Text="-" Clicked="OnSpeedMinusClicked" />
+        <Button Text="+" Clicked="OnSpeedPlusClicked" />
+    </StackLayout>
+</Grid>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
